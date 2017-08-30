@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<array-list>
+
+    <lexical-unit id="331" name="jabłecznik" pos="rzeczownik" tagcount="0" domain="jedz" desc="##K: og. apple pie" workstate="Testing.." source="source test" variant="1"/>
+    <lexical-unit id="332" name="szarlotka" pos="rzeczownik" tagcount="1" domain="jedz" desc="##K: og. apple pie" workstate="other testing state2" source="source test2" variant="1"/>
+    <lexical-unit id="333" name="ciasto" pos="rzeczownik" tagcount="2" domain="jedz" desc="##K: og. cake" workstate="other testing state3" source="source test3" variant="1"/>
+    <lexical-unit id="334" name="wypiek" pos="rzeczownik" tagcount="3" domain="jedz" desc="##K: og. cake ##A1: 0" workstate="other testing state4" source="source test4" variant="1"/>
+    <lexical-unit id="444" name="burrito" pos="rzeczownik pwn" tagcount="4" domain="jedz" desc="Mexican food ##A1: {example} - m" workstate="other testing state" source="other source" variant="1"/>
+    <synset id="111" workstate="" split="1" owner=""
+        definition="" desc="description" abstract="false">
+        <unit-id>331</unit-id>
+        <unit-id>332</unit-id>
+    </synset>
+
+    <synset id="112" workstate="" split="1" owner=""
+        definition="" desc="description" abstract="false">
+        <unit-id>333</unit-id>
+        <unit-id>334</unit-id>
+    </synset>
+
+    <lexicalrelations parent="331" child="333" relation="11" valid="true" owner=""/>
+    <lexicalrelations parent="332" child="333" relation="11" valid="true" owner=""/>
+    <synsetrelations parent="112" child="111" relation="11" valid="true" owner=""/>
+    <synsetrelations parent="111" child="112" relation="15" valid="true" owner=""/>
+
+</array-list>
