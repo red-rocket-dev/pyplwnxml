@@ -22,6 +22,9 @@ Will print::
 
     zły
     niedobry
+Installation
+----------------------------
+::
+pip install 
 -----
-
 Tested with Słowosieć 3.0 and Python 3.6.1
