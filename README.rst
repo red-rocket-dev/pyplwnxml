@@ -25,6 +25,7 @@ Will print::
 Installation
 ----------------------------
 ::
-pip install 
+    pip install 
+
 -----
 Tested with Słowosieć 3.0 and Python 3.6.1
